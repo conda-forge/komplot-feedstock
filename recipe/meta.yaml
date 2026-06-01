@@ -1,5 +1,5 @@
 {% set name = "komplot" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/komplot-{{ version }}.tar.gz
-  sha256: 323fa2f86415d80295a2aa43d74619dcb0b8b2e77d06dc256c5b83eda6582ec3
+  sha256: 92d846dfe7bea162c7390ae5c95860584556728ec42ab18d89c4a0cb901bcfa5
 
 build:
   noarch: python
